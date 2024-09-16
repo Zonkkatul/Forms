@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form Page</title>
+
+</head>
+<body>
+    <img src="FrontEnd_Course/Images/duck.png" alt="image">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <section class="container">
+<div class="form_content">
+    <form class="form" autocomplete="off"> 
+        <h1 class="main_title"> Adoption Form</h1>
+        <h2 class="main_info"> Would you like to adopt a duck?</h2>
+        <label for="name" class="label">Name</label>
+        <input type="text" name="name" id="name" class="input">
+        <label for="email" class="label">E-mail address</label>
+        <input type="email" name="email" id="email" class="input">
+        <label for="sex" class="label">Sex</label>
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <div class="select_country">
+            <label for="select" class="label">Which country do you live in?</label>
+            <select name="country" id="country">
+                <option>Select an option</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Iceland">Iceland</option>
+            </select>
+
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="40" rows="3"></textarea>
+        </div>
+
+        <input type="submit" value="submit">
+
+
+
+    </form>
+
+
+</div>
+
+</section>
+</body>
+</html>
